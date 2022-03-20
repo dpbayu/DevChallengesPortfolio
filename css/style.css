@@ -387,3 +387,15 @@ body {
 }
 
 /* Blog */
+/* Footer */
+footer {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer p{
+font-weight: 500;
+font-size: 14px;
+text-align: center;
+color: #828282;
+}
+/* Footer */

@@ -138,8 +138,6 @@ body {
     display: flex;
 }
 
-.exp-Box .image {}
-
 .exp-Box .image img {
     width: 75px;
     height: 75px;
@@ -148,8 +146,6 @@ body {
 .exp-Box .exp .info {
     margin: 0 20px;
 }
-
-.exp-Box .exp .info .date {}
 
 .exp-Box .info .date h3 {
     font-weight: 500;

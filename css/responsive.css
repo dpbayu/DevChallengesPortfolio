@@ -1,0 +1,73 @@
+@media only screen and (max-width: 1024px) {
+    .profile-Box .icon h3 {
+        font-size: 16px;
+    }
+
+    .profile-Box .text h4 {
+        font-size: 16px;
+    }
+
+    .exp-Box .exp {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .exp-Box .exp .info {
+        margin: 10px 0;
+    }
+
+    .exp-Box .exp .info .text h2 {
+        font-size: 14px;
+    }
+
+    .skills-Box .skill span {
+        font-size: 14px;
+    }
+
+    .project .info .hastag h3 {
+        font-size: 14px;
+    }
+
+    .project .info .title h1 {
+        font-size: 18px;
+    }
+
+    .project .info .text h2 {
+        font-size: 14px;
+    }
+
+    .blog .info .text h2 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .profile-Box .icon h3 {
+        font-size: 12px;
+        margin: 0 5px;
+    }
+
+    .profile-Box .text h4 {
+        font-size: 14px;
+    }
+
+    .hobbies-Box .hobbies .info .text h2 {
+        font-size: 14px;
+    }
+
+    .project {
+        flex-wrap: wrap;
+    }
+
+    .project .info {
+        margin: 10px 0;
+    }
+
+    .blog {
+        flex-wrap: wrap;
+    }
+
+    .blog .info {
+        margin: 0;
+    }
+}

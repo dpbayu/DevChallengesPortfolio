@@ -14,7 +14,7 @@ body {
 }
 
 .content {
-    margin: 0 25px;
+    margin: 25px 50px;
 }
 
 /* Profile */
@@ -81,6 +81,118 @@ body {
 }
 
 /* Profile */
+/* Expereinces */
+.exp-Box {
+    margin: 25px 0;
+    padding: 25px;
+    border-radius: 10px;
+    height: fit-content;
+    background: #ffffff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.exp-Box .title {
+    margin-bottom: 25px;
+}
+
+.exp-Box .title h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #4F4F4F;
+}
+
+.exp-Box .exp {
+    display: flex;
+}
+
+.exp-Box .image img {
+    width: 75px;
+    height: 75px;
+}
+
+.exp-Box .exp .info {
+    margin: 0 20px;
+}
+
+.exp-Box .info .date h3 {
+    font-weight: 500;
+    font-size: 14px;
+    color: #828282;
+}
+
+.exp-Box .exp .info .title {
+    margin: 10px 0;
+}
+
+.exp-Box .exp .info .title h1 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #333333;
+}
+
+.exp-Box .exp .info .text {
+    margin: 25px 0;
+}
+
+.exp-Box .exp .info .text h2 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #828282;
+}
+
+/* Experience */
+/* Hobbies */
+.hobbies {
+    margin: 25px 0;
+}
+
+.hobbies-Box {
+    padding: 25px;
+    border-radius: 10px;
+    height: fit-content;
+    background: #ffffff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hobbies-Box .title h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #4F4F4F;
+}
+
+.hobbies-Box .image img {
+    border-radius: 10px;
+    width: 100%;
+    height: 150px;
+}
+
+.hobbies-Box .hobbies .info {
+    margin: 0;
+}
+
+.hobbies-Box .hobbies .info .title {
+    margin: 10px 0;
+}
+
+.hobbies-Box .hobbies .info .title h1 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+}
+
+.hobbies-Box .hobbies .info .text {
+    margin: 10px 0;
+}
+
+.hobbies-Box .hobbies .info .text h2 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #828282;
+}
+
+/* Hobbies */
 /* Skills */
 .skills-Box {
     margin: 25px 0;
@@ -197,114 +309,66 @@ body {
 }
 
 /* Project */
-/* Expereinces */
-.exp-Box {
-    margin: 25px 0;
+/* Blog */
+.bar-Blog {
+    height: 65px;
     padding: 25px;
+    background-color: #ffffff;
     border-radius: 10px;
-    height: fit-content;
-    background: #ffffff;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.exp-Box .title {
-    margin-bottom: 25px;
-}
-
-.exp-Box .title h1 {
-    font-style: normal;
+.bar-Blog h1 {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 18px;
     color: #4F4F4F;
 }
 
-.exp-Box .exp {
+.blog {
     display: flex;
-}
-
-.exp-Box .image img {
-    width: 75px;
-    height: 75px;
-}
-
-.exp-Box .exp .info {
-    margin: 0 20px;
-}
-
-.exp-Box .info .date h3 {
-    font-weight: 500;
-    font-size: 14px;
-    color: #828282;
-}
-
-.exp-Box .exp .info .title {
-    margin: 10px 0;
-}
-
-.exp-Box .exp .info .title h1 {
-    font-weight: 600;
-    font-size: 16px;
-    color: #333333;
-}
-
-.exp-Box .exp .info .text {
     margin: 25px 0;
-}
-
-.exp-Box .exp .info .text h2 {
-    font-weight: 500;
-    font-size: 16px;
-    color: #828282;
-}
-
-/* Experience */
-/* Hobbies */
-.hobbies {
-    margin: 25px 0;
-}
-
-.hobbies-Box {
     padding: 25px;
-    border-radius: 10px;
     height: fit-content;
-    background: #ffffff;
+    background-color: #ffffff;
+    border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.hobbies-Box .title h1 {
-    font-style: normal;
+.blog .info {
+    margin: 0 25px;
+}
+
+.blog .text-Shadow h3 {
     font-weight: 500;
-    font-size: 24px;
-    color: #4F4F4F;
+    font-size: 16px;
+    color: #E0E0E0;
 }
 
-.hobbies-Box .image img {
-    width: 100%;
-    height: 150px;
-}
-
-.hobbies-Box .hobbies .info {
+.blog .info .title {
+    width: 175px;
     margin: 0;
 }
 
-.hobbies-Box .hobbies .info .title {
-    margin: 10px 0;
-}
-
-.hobbies-Box .hobbies .info .title h1 {
-    font-weight: 600;
-    font-size: 18px;
+.blog .info .title h1 {
+    font-weight: 500;
+    font-size: 24px;
     color: #333333;
 }
 
-.hobbies-Box .hobbies .info .text {
-    margin: 10px 0;
+.blog .info .text {
+    margin: 25px 0;
 }
 
-.hobbies-Box .hobbies .info .text h2 {
+.blog .info .text h2 {
     font-weight: 500;
     font-size: 16px;
     color: #828282;
 }
 
-/* Hobbies */
+.blog .image img {
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+/* Blog */

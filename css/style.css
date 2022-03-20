@@ -13,7 +13,7 @@ body {
     width: 100%;
 }
 
-.box {
+.profile-Box {
     background: #ffffff;
     margin-top: 25px;
     border-radius: 10px;
@@ -21,57 +21,57 @@ body {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.box .image {
+.profile-Box .image {
     padding: 25px 25px 0 25px;
 }
 
-.box .image img {
+.profile-Box .image img {
     height: 300px;
     width: 100%;
     border-radius: 10px;
 }
 
-.box .title {
+.profile-Box .title {
     padding: 25px;
 }
 
-.box .title h1 {
+.profile-Box .title h1 {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 24px;
     color: #4F4F4F;
 }
 
-.box .subtitle {
+.profile-Box .subtitle {
     padding: 0 25px;
     margin-bottom: 25px;
 }
 
-.box .subtitle h2 {
+.profile-Box .subtitle h2 {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 18px;
     color: #828282;
 }
 
-.box .icon {
+.profile-Box .icon {
     display: flex;
     padding: 0 25px;
     margin: 10px 0;
 }
 
-.box .icon h3 {
+.profile-Box .icon h3 {
     margin: 0 25px;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 18px;
     color: #4F4F4F;
 }
 
-.box .text {
+.profile-Box .text {
     padding: 25px;
 }
 
-.box .text h4 {
+.profile-Box .text h4 {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 18px;
     color: #828282;
 }
 
@@ -100,7 +100,7 @@ body {
 
 .skills-Box .skill span {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     color: #4F4F4F;
 }
 
@@ -112,4 +112,67 @@ body {
 
 .skills-Box .skill .progress .progress-bar {
     border-radius: 50px;
+}
+
+.exp-Box {
+    margin: 25px 0;
+    padding: 25px;
+    border-radius: 10px;
+    height: fit-content;
+    background: #ffffff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.exp-Box .title {
+    margin-bottom: 50px;
+}
+
+.exp-Box .title h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #4F4F4F;
+}
+
+.exp-Box .exp {
+    display: flex;
+}
+
+.exp-Box .image {}
+
+.exp-Box .image img {
+    width: 75px;
+    height: 75px;
+}
+
+.exp-Box .exp .info {
+    margin: 0 20px;
+}
+
+.exp-Box .exp .info .date {}
+
+.exp-Box .info .date h3 {
+    font-weight: 500;
+    font-size: 14px;
+    color: #828282;
+}
+
+.exp-Box .exp .info .title {
+    margin: 10px 0;
+}
+
+.exp-Box .exp .info .title h1 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #333333;
+}
+
+.exp-Box .exp .info .text {
+    margin: 25px 0;
+}
+
+.exp-Box .exp .info .text h2 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #828282;
 }
